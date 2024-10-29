@@ -26,8 +26,7 @@ The **Video to GIF Creation App** is designed to allow users to upload videos an
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/video-gif-creation-app.git
-   cd video-gif-creation-app
+   git clone https://github.com/imperialis/maker.git
 2. **Create a Virtual Environment**
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
@@ -36,7 +35,7 @@ The **Video to GIF Creation App** is designed to allow users to upload videos an
    pip install -r requirements.txt
 
 4.**Set Up Video Directory**
-   Place your video file in the videos/ directory. You can modify the video_paths list in the script to include the paths to your videos.
+   Create a videos Directory and place your video file in the videos/ directory. You can modify the video_paths list in the script to include the paths to your videos.
 5. **Run the Application**
    python gifmaker.py
 6. **Access the App**
@@ -56,8 +55,12 @@ The **Video to GIF Creation App** is designed to allow users to upload videos an
 "A cute animal"
 "An exciting event"
 
+**Sample Output**
+![image](https://github.com/user-attachments/assets/2ddedb82-4ec8-411d-b5b9-0d20fffbebb3)
+
+
 **Contribution**
 - Feel free to fork the repository and submit pull requests. Contributions are welcome!
 
 **License**
-This project is licensed under the MIT License. See the LICENSE file for details.
+- This project is licensed under the MIT License. See the LICENSE file for details.
