@@ -43,21 +43,21 @@ The **Video to GIF Creation App** is designed to allow users to upload videos an
    Open your web browser and go to http://localhost:7860 to interact with the app.
    
 **Dependencies**
-Torch: For running the machine learning model.
-Transformers: For accessing the CLIP model.
-Gradio: For creating the web interface.
-ChromaDB: For managing video embeddings.
-MoviePy: For video processing tasks.
+- Torch: For running the machine learning model.
+- Transformers: For accessing the CLIP model.
+- Gradio: For creating the web interface.
+- ChromaDB: For managing video embeddings.
+- MoviePy: For video processing tasks.
 
 **Example Queries**
-You can try using the following queries to retrieve GIFs from your videos:
+- You can try using the following queries to retrieve GIFs from your videos:
 
 "A funny moment"
 "A cute animal"
 "An exciting event"
 
 **Contribution**
-Feel free to fork the repository and submit pull requests. Contributions are welcome!
+- Feel free to fork the repository and submit pull requests. Contributions are welcome!
 
 **License**
 This project is licensed under the MIT License. See the LICENSE file for details.
