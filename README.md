@@ -28,20 +28,21 @@ The **Video to GIF Creation App** is designed to allow users to upload videos an
    ```bash
    git clone https://github.com/imperialis/maker.git
 2. **Create a Virtual Environment**
+   ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 3.**Install Dependencies**
-   pip install -r requirements.txt
+   - pip install -r requirements.txt
 
 4.**Set Up Video Directory**
-   Create a videos Directory and place your video file in the videos/ directory. You can modify the video_paths list in the script to include the paths to your videos.
+   - Create a videos Directory and place your video file in the videos/ directory. You can modify the video_paths list in the script to include the paths to your videos.
    
 5. **Run the Application**
-   python gifmaker.py
+   - python gifmaker.py
    
 7. **Access the App**
-   Open your web browser and go to http://localhost:7860 to interact with the app.
+   - Open your web browser and go to http://localhost:7860 to interact with the app.
    
 **Dependencies**
 - Torch: For running the machine learning model.
