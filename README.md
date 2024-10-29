@@ -36,9 +36,11 @@ The **Video to GIF Creation App** is designed to allow users to upload videos an
 
 4.**Set Up Video Directory**
    Create a videos Directory and place your video file in the videos/ directory. You can modify the video_paths list in the script to include the paths to your videos.
+   
 5. **Run the Application**
    python gifmaker.py
-6. **Access the App**
+   
+7. **Access the App**
    Open your web browser and go to http://localhost:7860 to interact with the app.
    
 **Dependencies**
@@ -51,9 +53,9 @@ The **Video to GIF Creation App** is designed to allow users to upload videos an
 **Example Queries**
 - You can try using the following queries to retrieve GIFs from your videos:
 
-"A funny moment"
-"A cute animal"
-"An exciting event"
+- "A funny moment"
+- "A cute animal"
+- "An exciting event"
 
 **Sample Output**
 ![image](https://github.com/user-attachments/assets/2ddedb82-4ec8-411d-b5b9-0d20fffbebb3)
